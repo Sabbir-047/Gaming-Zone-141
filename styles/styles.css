@@ -305,6 +305,10 @@ body {
     transition: .2s ease-in;
 }
 
+.game-option img{
+    width: 60px;
+}
+
 .game-option:hover{
     border: 2px solid #FF42A5;
 }
@@ -493,6 +497,25 @@ footer{
     .instant-play-img{
         justify-content: center;
         width: 100%;
+    }
+    /* game- option styles */
+    .game-options-container {
+        padding: 5rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+    .game-option {
+        margin-bottom: 1rem;
+        padding: 5px;
+    }
+    .game-option img{
+        width: 1.563rem;
+    }
+    .game-option p{
+        margin-left: 0.3rem;
+        font-weight: 600;
+        font-size: 11px;
     }
     .footer-text-container, .footer-icon-container, .footer-policy-container{
         flex-wrap: wrap;
