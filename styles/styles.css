@@ -226,6 +226,68 @@ body {
 
 
 
+/* Instant Play Section */
+.instant-play-section{
+    max-width: 1440px;
+    margin: 7.5rem auto;
+}
+
+.instant-play-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.instant-play-content{
+    width: 40%;
+}
+
+.instant-play-content span{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.instant-play-content p{
+    color: #534C64;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+.instant-play-img{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.instant-play-img img{
+    width: 75%;
+    height: 100%;
+}
+
+.sub-game{
+    position: absolute;
+    width: 35%;
+    height: 40%;
+    bottom: -10%;
+    left: 4%;
+}
+
+/* Game Options Section Style */
+.game-options-section{
+    max-width: 1440px;
+    margin: 7.5rem auto;
+}
+
+.game-options-container{
+    
+}
+
+
+
 
 
 
@@ -315,6 +377,27 @@ body {
         grid-template-columns: 1fr;
         padding: 0 1rem;
     }
+    .online-game-description h2{
+        font-size: 2rem;
+    }
+    /* Instant-Play */
+    .instant-play-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .instant-play-content{
+        width: 100%;
+    }
+    .instant-play-content h2{
+        font-size: 2rem;
+    }
+    .instant-play-content p{
+        margin: 3rem 0rem;
+    }
+    .instant-play-img{
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 /* Tablet Devices */
@@ -339,6 +422,10 @@ body {
     /* online-game-card */
     .game-card-container{
         grid-template-columns: repeat(2, 1fr);
-        padding: 0 1rem;
+        padding: 0rem 1rem;
+    }
+    /* Instant Play */
+    .instant-play-container {
+        padding: 0rem 1rem;
     }
 }
