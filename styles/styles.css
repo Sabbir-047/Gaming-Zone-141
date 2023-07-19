@@ -16,6 +16,13 @@ body {
     color: #0B0223;
 }
 
+.primary-linear-title{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
 
 /* Header Styles */
 
@@ -136,6 +143,9 @@ body {
 #btn-2{
     background-color: #4EC5F7;
 }
+
+
+/* Online Game Card Styles */
 
 
 
