@@ -177,7 +177,7 @@ body {
 }
 
 .game-card:hover{
-    border: 2px solid rgb(209, 44, 231);
+    border: 3px solid rgb(209, 44, 231);
 }
 
 .game-card img{
@@ -375,6 +375,11 @@ footer{
     font-size: 2rem;
 }
 
+.footer-icon-container a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .footer-policy-container{
     display: flex;
     color: rgba(255, 255, 255, 0.60);
@@ -520,8 +525,16 @@ footer{
     .footer-text-container, .footer-icon-container, .footer-policy-container{
         flex-wrap: wrap;
     }
-    .footer-icon-container, .footer-policy-container{
+    .footer-icon-container, .footer-policy-container, .footer-copyright{
         padding: 0 1rem;
+    }
+    .footer-text-container{
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem;
+        text-align: center;
     }
 }
 
@@ -552,5 +565,14 @@ footer{
     /* Instant Play */
     .instant-play-container {
         padding: 0rem 1rem;
+    }
+    /* footer */
+    .footer-text-container{
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem;
+        text-align: center;
     }
 }
