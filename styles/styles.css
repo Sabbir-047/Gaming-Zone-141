@@ -229,7 +229,8 @@ body {
 /* Instant Play Section */
 .instant-play-section{
     max-width: 1440px;
-    margin: 7.5rem auto;
+    margin: 7rem auto;
+    padding-bottom: 4rem;
 }
 
 .instant-play-container{
@@ -278,12 +279,48 @@ body {
 
 /* Game Options Section Style */
 .game-options-section{
-    max-width: 1440px;
-    margin: 7.5rem auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .game-options-container{
-    
+    max-width: 1440px;
+    padding: 7.5rem 0;
+    margin: 0 auto;
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    flex-basis: 280px;
+    border-radius: 3.125rem;
+    margin-bottom: 1.688rem;
+    padding: .625rem;
+    border: 2px solid #FFF;
+    transition: .2s ease-in;
+}
+
+.game-option:hover{
+    border: 2px solid #FF42A5;
+}
+
+.game-option:hover p{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.game-option p{
+    /* margin-left: 1rem; */
+    color: #0B0223;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 
