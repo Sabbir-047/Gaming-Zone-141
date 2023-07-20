@@ -486,6 +486,9 @@ footer{
         font-size: 2rem;
     }
     /* Instant-Play */
+    .instant-play-section{
+        padding-bottom: 0rem;
+    }
     .instant-play-container{
         flex-direction: column;
         text-align: center;
